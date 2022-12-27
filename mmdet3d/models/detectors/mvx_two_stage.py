@@ -21,17 +21,17 @@ class MVXTwoStageDetector(Base3DDetector):
 
     def __init__(self,
                  freeze_img=False,
-                 pts_voxel_layer=None,
-                 pts_voxel_encoder=None,
-                 pts_middle_encoder=None,
-                 pts_fusion_layer=None,
-                 img_backbone=None,
-                 pts_backbone=None,
-                 img_neck=None,
-                 pts_neck=None,
-                 pts_bbox_head=None,
-                 img_roi_head=None,
-                 img_rpn_head=None,
+                 pts_voxel_layer=None,  # 
+                 pts_voxel_encoder=None,  # 
+                 pts_middle_encoder=None,  # 
+                 pts_fusion_layer=None,  # 
+                 img_backbone=None,  # 
+                 pts_backbone=None,  # 
+                 img_neck=None,  # 
+                 pts_neck=None,  # 
+                 pts_bbox_head=None,  # 
+                 img_roi_head=None,  # 
+                 img_rpn_head=None,  # 
                  train_cfg=None,
                  test_cfg=None,
                  pretrained=None,
